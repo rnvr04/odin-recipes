@@ -1,0 +1,39 @@
+.body{
+    background-color: peachpuff;
+}
+#title{
+    font-style: italic;
+}
+
+.recipe-title{
+    font-style: italic;
+}
+
+.chai-recipe, 
+.coffee-recipe, 
+.omlette-recipe{
+    color: black;
+    background-color: #ff000090;
+    /* 238 232 170 */
+    font-size: 28px;
+    font-family: "serif";
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+
+.ancestor .child {
+    color: red;
+    /* background-color: blue; */
+}
+
+.child{
+    color: blue;
+}
+
+img{
+    height: auto;
+    width: 50%;
+}
